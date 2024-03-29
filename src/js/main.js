@@ -33,7 +33,7 @@ $(document).ready(function () {
       invalidHandler: function (evento, validador) {
         let camposIncorretos = validador.numberOfInvalids();
         if (camposIncorretos) {
-          alert(`Exitem ${camposIncorretos} campos incorretos ou vazios`);
+        alert(`Exitem ${camposIncorretos} campos incorretos ou vazios`);
         }
       },
     });
